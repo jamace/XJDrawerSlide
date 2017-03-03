@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11445A171E695F0F00D2AAAF /* logo80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11445A161E695F0F00D2AAAF /* logo80@2x.png */; };
 		11841CF01E66CD7C00656FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CEF1E66CD7C00656FA4 /* main.m */; };
 		11841CF31E66CD7C00656FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CF21E66CD7C00656FA4 /* AppDelegate.m */; };
 		11841CF61E66CD7C00656FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CF51E66CD7C00656FA4 /* ViewController.m */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11445A161E695F0F00D2AAAF /* logo80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo80@2x.png"; sourceTree = "<group>"; };
 		11841CEB1E66CD7C00656FA4 /* XJDrawerSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJDrawerSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11841CEF1E66CD7C00656FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11841CF11E66CD7C00656FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		11841CED1E66CD7C00656FA4 /* XJDrawerSlide */ = {
 			isa = PBXGroup;
 			children = (
+				11445A161E695F0F00D2AAAF /* logo80@2x.png */,
 				11841D581E66CECF00656FA4 /* XJHelper.h */,
 				11841CF11E66CD7C00656FA4 /* AppDelegate.h */,
 				11841CF21E66CD7C00656FA4 /* AppDelegate.m */,
@@ -368,6 +371,7 @@
 				11841CFE1E66CD7C00656FA4 /* LaunchScreen.storyboard in Resources */,
 				11841D571E66CE4500656FA4 /* RightSilderVc.xib in Resources */,
 				11841CFB1E66CD7C00656FA4 /* Assets.xcassets in Resources */,
+				11445A171E695F0F00D2AAAF /* logo80@2x.png in Resources */,
 				11841D5D1E66D47000656FA4 /* NextVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +644,7 @@
 				11841D1A1E66CD7D00656FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11841D1B1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideTests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +653,7 @@
 				11841D1D1E66CD7D00656FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11841D1E1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideUITests" */ = {
 			isa = XCConfigurationList;
@@ -656,6 +662,7 @@
 				11841D201E66CD7D00656FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
