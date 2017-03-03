@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11841CF01E66CD7C00656FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CEF1E66CD7C00656FA4 /* main.m */; };
+		11841CF31E66CD7C00656FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CF21E66CD7C00656FA4 /* AppDelegate.m */; };
+		11841CF61E66CD7C00656FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841CF51E66CD7C00656FA4 /* ViewController.m */; };
+		11841CFB1E66CD7C00656FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11841CFA1E66CD7C00656FA4 /* Assets.xcassets */; };
+		11841CFE1E66CD7C00656FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11841CFC1E66CD7C00656FA4 /* LaunchScreen.storyboard */; };
+		11841D091E66CD7C00656FA4 /* XJDrawerSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D081E66CD7C00656FA4 /* XJDrawerSlideTests.m */; };
+		11841D141E66CD7D00656FA4 /* XJDrawerSlideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D131E66CD7D00656FA4 /* XJDrawerSlideUITests.m */; };
+		11841D2B1E66CDAF00656FA4 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D231E66CDAF00656FA4 /* MMDrawerBarButtonItem.m */; };
+		11841D2C1E66CDAF00656FA4 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D261E66CDAF00656FA4 /* MMDrawerController.m */; };
+		11841D2D1E66CDAF00656FA4 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D281E66CDAF00656FA4 /* MMDrawerVisualState.m */; };
+		11841D2E1E66CDAF00656FA4 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D2A1E66CDAF00656FA4 /* UIViewController+MMDrawerController.m */; };
+		11841D3E1E66CE0500656FA4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D331E66CE0500656FA4 /* BaseViewController.m */; };
+		11841D3F1E66CE0500656FA4 /* MoreVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D351E66CE0500656FA4 /* MoreVc.m */; };
+		11841D401E66CE0500656FA4 /* LoanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D371E66CE0500656FA4 /* LoanVc.m */; };
+		11841D411E66CE0500656FA4 /* MainVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D391E66CE0500656FA4 /* MainVc.m */; };
+		11841D421E66CE0500656FA4 /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D3B1E66CE0500656FA4 /* BaseNavController.m */; };
+		11841D431E66CE0500656FA4 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D3D1E66CE0500656FA4 /* BaseTabBarController.m */; };
+		11841D4A1E66CE1400656FA4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D451E66CE1400656FA4 /* UIView+Extension.m */; };
+		11841D4B1E66CE1400656FA4 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D471E66CE1400656FA4 /* UIButton+Extension.m */; };
+		11841D4C1E66CE1400656FA4 /* UIBarButtonItem+XL.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D491E66CE1400656FA4 /* UIBarButtonItem+XL.m */; };
+		11841D4F1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D4E1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.m */; };
+		11841D521E66CE3700656FA4 /* LeftSliderVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D511E66CE3700656FA4 /* LeftSliderVc.m */; };
+		11841D561E66CE4500656FA4 /* RightSilderVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D541E66CE4500656FA4 /* RightSilderVc.m */; };
+		11841D571E66CE4500656FA4 /* RightSilderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11841D551E66CE4500656FA4 /* RightSilderVc.xib */; };
+		11841D5C1E66D47000656FA4 /* NextVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 11841D5A1E66D47000656FA4 /* NextVc.m */; };
+		11841D5D1E66D47000656FA4 /* NextVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11841D5B1E66D47000656FA4 /* NextVc.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11841D051E66CD7C00656FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11841CE31E66CD7C00656FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11841CEA1E66CD7C00656FA4;
+			remoteInfo = XJDrawerSlide;
+		};
+		11841D101E66CD7D00656FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11841CE31E66CD7C00656FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11841CEA1E66CD7C00656FA4;
+			remoteInfo = XJDrawerSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11841CEB1E66CD7C00656FA4 /* XJDrawerSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJDrawerSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11841CEF1E66CD7C00656FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11841CF11E66CD7C00656FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11841CF21E66CD7C00656FA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11841CF41E66CD7C00656FA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11841CF51E66CD7C00656FA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11841CFA1E66CD7C00656FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11841CFD1E66CD7C00656FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11841CFF1E66CD7C00656FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11841D041E66CD7C00656FA4 /* XJDrawerSlideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJDrawerSlideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11841D081E66CD7C00656FA4 /* XJDrawerSlideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJDrawerSlideTests.m; sourceTree = "<group>"; };
+		11841D0A1E66CD7C00656FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11841D0F1E66CD7D00656FA4 /* XJDrawerSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJDrawerSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11841D131E66CD7D00656FA4 /* XJDrawerSlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJDrawerSlideUITests.m; sourceTree = "<group>"; };
+		11841D151E66CD7D00656FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11841D221E66CDAF00656FA4 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		11841D231E66CDAF00656FA4 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		11841D241E66CDAF00656FA4 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		11841D251E66CDAF00656FA4 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		11841D261E66CDAF00656FA4 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		11841D271E66CDAF00656FA4 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		11841D281E66CDAF00656FA4 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		11841D291E66CDAF00656FA4 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		11841D2A1E66CDAF00656FA4 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		11841D321E66CE0500656FA4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		11841D331E66CE0500656FA4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		11841D341E66CE0500656FA4 /* MoreVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreVc.h; sourceTree = "<group>"; };
+		11841D351E66CE0500656FA4 /* MoreVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreVc.m; sourceTree = "<group>"; };
+		11841D361E66CE0500656FA4 /* LoanVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanVc.h; sourceTree = "<group>"; };
+		11841D371E66CE0500656FA4 /* LoanVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanVc.m; sourceTree = "<group>"; };
+		11841D381E66CE0500656FA4 /* MainVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVc.h; sourceTree = "<group>"; };
+		11841D391E66CE0500656FA4 /* MainVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVc.m; sourceTree = "<group>"; };
+		11841D3A1E66CE0500656FA4 /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		11841D3B1E66CE0500656FA4 /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		11841D3C1E66CE0500656FA4 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		11841D3D1E66CE0500656FA4 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		11841D441E66CE1400656FA4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		11841D451E66CE1400656FA4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		11841D461E66CE1400656FA4 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		11841D471E66CE1400656FA4 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		11841D481E66CE1400656FA4 /* UIBarButtonItem+XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XL.h"; sourceTree = "<group>"; };
+		11841D491E66CE1400656FA4 /* UIBarButtonItem+XL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XL.m"; sourceTree = "<group>"; };
+		11841D4D1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		11841D4E1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		11841D501E66CE3700656FA4 /* LeftSliderVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSliderVc.h; sourceTree = "<group>"; };
+		11841D511E66CE3700656FA4 /* LeftSliderVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSliderVc.m; sourceTree = "<group>"; };
+		11841D531E66CE4500656FA4 /* RightSilderVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSilderVc.h; sourceTree = "<group>"; };
+		11841D541E66CE4500656FA4 /* RightSilderVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSilderVc.m; sourceTree = "<group>"; };
+		11841D551E66CE4500656FA4 /* RightSilderVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightSilderVc.xib; sourceTree = "<group>"; };
+		11841D581E66CECF00656FA4 /* XJHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHelper.h; sourceTree = "<group>"; };
+		11841D591E66D47000656FA4 /* NextVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextVc.h; sourceTree = "<group>"; };
+		11841D5A1E66D47000656FA4 /* NextVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextVc.m; sourceTree = "<group>"; };
+		11841D5B1E66D47000656FA4 /* NextVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextVc.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11841CE81E66CD7C00656FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D011E66CD7C00656FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D0C1E66CD7D00656FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11841CE21E66CD7C00656FA4 = {
+			isa = PBXGroup;
+			children = (
+				11841D211E66CDAF00656FA4 /* MMDrawerController */,
+				11841D301E66CDF000656FA4 /* Category */,
+				11841D311E66CDF000656FA4 /* Vc */,
+				11841CED1E66CD7C00656FA4 /* XJDrawerSlide */,
+				11841D071E66CD7C00656FA4 /* XJDrawerSlideTests */,
+				11841D121E66CD7D00656FA4 /* XJDrawerSlideUITests */,
+				11841CEC1E66CD7C00656FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11841CEC1E66CD7C00656FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11841CEB1E66CD7C00656FA4 /* XJDrawerSlide.app */,
+				11841D041E66CD7C00656FA4 /* XJDrawerSlideTests.xctest */,
+				11841D0F1E66CD7D00656FA4 /* XJDrawerSlideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11841CED1E66CD7C00656FA4 /* XJDrawerSlide */ = {
+			isa = PBXGroup;
+			children = (
+				11841D581E66CECF00656FA4 /* XJHelper.h */,
+				11841CF11E66CD7C00656FA4 /* AppDelegate.h */,
+				11841CF21E66CD7C00656FA4 /* AppDelegate.m */,
+				11841CF41E66CD7C00656FA4 /* ViewController.h */,
+				11841CF51E66CD7C00656FA4 /* ViewController.m */,
+				11841CFA1E66CD7C00656FA4 /* Assets.xcassets */,
+				11841CFC1E66CD7C00656FA4 /* LaunchScreen.storyboard */,
+				11841CFF1E66CD7C00656FA4 /* Info.plist */,
+				11841CEE1E66CD7C00656FA4 /* Supporting Files */,
+			);
+			path = XJDrawerSlide;
+			sourceTree = "<group>";
+		};
+		11841CEE1E66CD7C00656FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11841CEF1E66CD7C00656FA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11841D071E66CD7C00656FA4 /* XJDrawerSlideTests */ = {
+			isa = PBXGroup;
+			children = (
+				11841D081E66CD7C00656FA4 /* XJDrawerSlideTests.m */,
+				11841D0A1E66CD7C00656FA4 /* Info.plist */,
+			);
+			path = XJDrawerSlideTests;
+			sourceTree = "<group>";
+		};
+		11841D121E66CD7D00656FA4 /* XJDrawerSlideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11841D131E66CD7D00656FA4 /* XJDrawerSlideUITests.m */,
+				11841D151E66CD7D00656FA4 /* Info.plist */,
+			);
+			path = XJDrawerSlideUITests;
+			sourceTree = "<group>";
+		};
+		11841D211E66CDAF00656FA4 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				11841D4D1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.h */,
+				11841D4E1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.m */,
+				11841D221E66CDAF00656FA4 /* MMDrawerBarButtonItem.h */,
+				11841D231E66CDAF00656FA4 /* MMDrawerBarButtonItem.m */,
+				11841D241E66CDAF00656FA4 /* MMDrawerController+Subclass.h */,
+				11841D251E66CDAF00656FA4 /* MMDrawerController.h */,
+				11841D261E66CDAF00656FA4 /* MMDrawerController.m */,
+				11841D271E66CDAF00656FA4 /* MMDrawerVisualState.h */,
+				11841D281E66CDAF00656FA4 /* MMDrawerVisualState.m */,
+				11841D291E66CDAF00656FA4 /* UIViewController+MMDrawerController.h */,
+				11841D2A1E66CDAF00656FA4 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		11841D301E66CDF000656FA4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				11841D441E66CE1400656FA4 /* UIView+Extension.h */,
+				11841D451E66CE1400656FA4 /* UIView+Extension.m */,
+				11841D461E66CE1400656FA4 /* UIButton+Extension.h */,
+				11841D471E66CE1400656FA4 /* UIButton+Extension.m */,
+				11841D481E66CE1400656FA4 /* UIBarButtonItem+XL.h */,
+				11841D491E66CE1400656FA4 /* UIBarButtonItem+XL.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		11841D311E66CDF000656FA4 /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				11841D321E66CE0500656FA4 /* BaseViewController.h */,
+				11841D331E66CE0500656FA4 /* BaseViewController.m */,
+				11841D341E66CE0500656FA4 /* MoreVc.h */,
+				11841D351E66CE0500656FA4 /* MoreVc.m */,
+				11841D361E66CE0500656FA4 /* LoanVc.h */,
+				11841D371E66CE0500656FA4 /* LoanVc.m */,
+				11841D381E66CE0500656FA4 /* MainVc.h */,
+				11841D391E66CE0500656FA4 /* MainVc.m */,
+				11841D3A1E66CE0500656FA4 /* BaseNavController.h */,
+				11841D3B1E66CE0500656FA4 /* BaseNavController.m */,
+				11841D3C1E66CE0500656FA4 /* BaseTabBarController.h */,
+				11841D3D1E66CE0500656FA4 /* BaseTabBarController.m */,
+				11841D501E66CE3700656FA4 /* LeftSliderVc.h */,
+				11841D511E66CE3700656FA4 /* LeftSliderVc.m */,
+				11841D531E66CE4500656FA4 /* RightSilderVc.h */,
+				11841D541E66CE4500656FA4 /* RightSilderVc.m */,
+				11841D551E66CE4500656FA4 /* RightSilderVc.xib */,
+				11841D591E66D47000656FA4 /* NextVc.h */,
+				11841D5A1E66D47000656FA4 /* NextVc.m */,
+				11841D5B1E66D47000656FA4 /* NextVc.xib */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11841CEA1E66CD7C00656FA4 /* XJDrawerSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11841D181E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlide" */;
+			buildPhases = (
+				11841CE71E66CD7C00656FA4 /* Sources */,
+				11841CE81E66CD7C00656FA4 /* Frameworks */,
+				11841CE91E66CD7C00656FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJDrawerSlide;
+			productName = XJDrawerSlide;
+			productReference = 11841CEB1E66CD7C00656FA4 /* XJDrawerSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11841D031E66CD7C00656FA4 /* XJDrawerSlideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11841D1B1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideTests" */;
+			buildPhases = (
+				11841D001E66CD7C00656FA4 /* Sources */,
+				11841D011E66CD7C00656FA4 /* Frameworks */,
+				11841D021E66CD7C00656FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11841D061E66CD7C00656FA4 /* PBXTargetDependency */,
+			);
+			name = XJDrawerSlideTests;
+			productName = XJDrawerSlideTests;
+			productReference = 11841D041E66CD7C00656FA4 /* XJDrawerSlideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11841D0E1E66CD7D00656FA4 /* XJDrawerSlideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11841D1E1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideUITests" */;
+			buildPhases = (
+				11841D0B1E66CD7D00656FA4 /* Sources */,
+				11841D0C1E66CD7D00656FA4 /* Frameworks */,
+				11841D0D1E66CD7D00656FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11841D111E66CD7D00656FA4 /* PBXTargetDependency */,
+			);
+			name = XJDrawerSlideUITests;
+			productName = XJDrawerSlideUITests;
+			productReference = 11841D0F1E66CD7D00656FA4 /* XJDrawerSlideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11841CE31E66CD7C00656FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jamace;
+				TargetAttributes = {
+					11841CEA1E66CD7C00656FA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CTEFL7WAQ6;
+						ProvisioningStyle = Automatic;
+					};
+					11841D031E66CD7C00656FA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CTEFL7WAQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11841CEA1E66CD7C00656FA4;
+					};
+					11841D0E1E66CD7D00656FA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CTEFL7WAQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11841CEA1E66CD7C00656FA4;
+					};
+				};
+			};
+			buildConfigurationList = 11841CE61E66CD7C00656FA4 /* Build configuration list for PBXProject "XJDrawerSlide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11841CE21E66CD7C00656FA4;
+			productRefGroup = 11841CEC1E66CD7C00656FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11841CEA1E66CD7C00656FA4 /* XJDrawerSlide */,
+				11841D031E66CD7C00656FA4 /* XJDrawerSlideTests */,
+				11841D0E1E66CD7D00656FA4 /* XJDrawerSlideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11841CE91E66CD7C00656FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11841CFE1E66CD7C00656FA4 /* LaunchScreen.storyboard in Resources */,
+				11841D571E66CE4500656FA4 /* RightSilderVc.xib in Resources */,
+				11841CFB1E66CD7C00656FA4 /* Assets.xcassets in Resources */,
+				11841D5D1E66D47000656FA4 /* NextVc.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D021E66CD7C00656FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D0D1E66CD7D00656FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11841CE71E66CD7C00656FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11841D2D1E66CDAF00656FA4 /* MMDrawerVisualState.m in Sources */,
+				11841D3E1E66CE0500656FA4 /* BaseViewController.m in Sources */,
+				11841D521E66CE3700656FA4 /* LeftSliderVc.m in Sources */,
+				11841D421E66CE0500656FA4 /* BaseNavController.m in Sources */,
+				11841CF61E66CD7C00656FA4 /* ViewController.m in Sources */,
+				11841D2E1E66CDAF00656FA4 /* UIViewController+MMDrawerController.m in Sources */,
+				11841D561E66CE4500656FA4 /* RightSilderVc.m in Sources */,
+				11841D411E66CE0500656FA4 /* MainVc.m in Sources */,
+				11841D401E66CE0500656FA4 /* LoanVc.m in Sources */,
+				11841D2C1E66CDAF00656FA4 /* MMDrawerController.m in Sources */,
+				11841D2B1E66CDAF00656FA4 /* MMDrawerBarButtonItem.m in Sources */,
+				11841D431E66CE0500656FA4 /* BaseTabBarController.m in Sources */,
+				11841D4B1E66CE1400656FA4 /* UIButton+Extension.m in Sources */,
+				11841D4A1E66CE1400656FA4 /* UIView+Extension.m in Sources */,
+				11841D4C1E66CE1400656FA4 /* UIBarButtonItem+XL.m in Sources */,
+				11841D4F1E66CE1F00656FA4 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				11841CF31E66CD7C00656FA4 /* AppDelegate.m in Sources */,
+				11841D3F1E66CE0500656FA4 /* MoreVc.m in Sources */,
+				11841CF01E66CD7C00656FA4 /* main.m in Sources */,
+				11841D5C1E66D47000656FA4 /* NextVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D001E66CD7C00656FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11841D091E66CD7C00656FA4 /* XJDrawerSlideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11841D0B1E66CD7D00656FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11841D141E66CD7D00656FA4 /* XJDrawerSlideUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11841D061E66CD7C00656FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11841CEA1E66CD7C00656FA4 /* XJDrawerSlide */;
+			targetProxy = 11841D051E66CD7C00656FA4 /* PBXContainerItemProxy */;
+		};
+		11841D111E66CD7D00656FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11841CEA1E66CD7C00656FA4 /* XJDrawerSlide */;
+			targetProxy = 11841D101E66CD7D00656FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11841CFC1E66CD7C00656FA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11841CFD1E66CD7C00656FA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11841D161E66CD7D00656FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11841D171E66CD7D00656FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11841D191E66CD7D00656FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11841D1A1E66CD7D00656FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11841D1C1E66CD7D00656FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJDrawerSlide.app/XJDrawerSlide";
+			};
+			name = Debug;
+		};
+		11841D1D1E66CD7D00656FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJDrawerSlide.app/XJDrawerSlide";
+			};
+			name = Release;
+		};
+		11841D1F1E66CD7D00656FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJDrawerSlide;
+			};
+			name = Debug;
+		};
+		11841D201E66CD7D00656FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = XJDrawerSlideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamace.XJDrawerSlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJDrawerSlide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11841CE61E66CD7C00656FA4 /* Build configuration list for PBXProject "XJDrawerSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11841D161E66CD7D00656FA4 /* Debug */,
+				11841D171E66CD7D00656FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11841D181E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11841D191E66CD7D00656FA4 /* Debug */,
+				11841D1A1E66CD7D00656FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11841D1B1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11841D1C1E66CD7D00656FA4 /* Debug */,
+				11841D1D1E66CD7D00656FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11841D1E1E66CD7D00656FA4 /* Build configuration list for PBXNativeTarget "XJDrawerSlideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11841D1F1E66CD7D00656FA4 /* Debug */,
+				11841D201E66CD7D00656FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11841CE31E66CD7C00656FA4 /* Project object */;
+}
